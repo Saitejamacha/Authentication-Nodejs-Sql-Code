@@ -1,0 +1,33 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "dhoni",
+  "name": "msdhoni",
+  "password": "dhoni07",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "MSaiTeja",
+  "password": "MStejatej"
+
+}
+###
+
+
+PUT http://localhost:3000/change-password/
+Content-Type: application/json
+
+{
+  "username": "dhoni",
+  "oldPassword": "dhonithecaptain",
+  "newPassword": "dhonigreate"
+}
+###
