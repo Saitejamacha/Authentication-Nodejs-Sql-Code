@@ -1,4 +1,4 @@
-POST http://localhost:3000/register/
+POST http://localhost:3000/register
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3000/login/
+POST http://localhost:3000/login
 Content-Type: application/json
 
 {
@@ -22,12 +22,13 @@ Content-Type: application/json
 ###
 
 
-PUT http://localhost:3000/change-password/
+PUT http://localhost:3000/change-password
 Content-Type: application/json
 
 {
   "username": "dhoni",
-  "oldPassword": "dhonithecaptain",
-  "newPassword": "dhonigreate"
+  "oldPassword": "dhonidhoni999",
+  "newPassword": "dho"
 }
 ###
+
